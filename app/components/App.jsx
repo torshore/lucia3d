@@ -1,8 +1,13 @@
 import React, { PureComponent } from 'react';
-
+import firebase from 'firebase';
 import './App.scss';
 
 class App extends PureComponent {
+    constructor(props) {
+        super(props);
+    }
+
+
     render() {
         console.log("Hi Front End Class!!!")
         return <div className="app">
