@@ -1,0 +1,28 @@
+.planet-icon {
+    ._svg {
+        ._background {
+            fill: #D5D5F0;
+        }
+
+        ._circle {
+            fill: none;
+            stroke: #7C7CA4;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 10;
+        }
+        ._line {
+            stroke: #7C7CA4;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 10;
+        }
+
+        .st4 {
+            opacity: 0.3;
+            fill: #7C7CA4;
+        }
+    }
+}
