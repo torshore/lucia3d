@@ -4,7 +4,9 @@ html {
     > body {
         margin: 0;
         height: 100%;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Lato', sans-serif;
+        background: #3c1053; /* fallback for old browsers */
+        background: linear-gradient(to bottom, #ad5389, #3c1053);
 
         > #app {
             height: 100%;
