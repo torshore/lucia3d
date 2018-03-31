@@ -1,0 +1,30 @@
+.hero-banner {
+    > ._header {
+        display: flex;
+        justify-content: space-between;
+
+        > ._nav-links {
+            flex: 0.5;
+            display: flex;
+            align-items: center;
+
+            > a {
+                margin-right: 20px;
+                color: #f5eafb;
+                text-decoration: none;
+            }
+        }
+
+        > ._outer-links {
+            display: flex;
+            justify-content: space-around;
+
+            > a > ._icon {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                color: #f5eafb;
+            }
+        }
+    }
+}
