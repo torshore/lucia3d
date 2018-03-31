@@ -12,11 +12,26 @@ export default function PlanetIcon2() {
             viewBox="0 0 100 100"
             className="_svg"
         >
-            <circle className="st4" cx="50" cy="50" r="35"/>
-            <circle className="st5" cx="50" cy="50" r="35"/>
-            <circle className="st5" cx="85" cy="10" r="5"/>
+            <circle
+                className="_background"
+                cx="50"
+                cy="50"
+                r="35"
+            />
+            <circle
+                className="_line"
+                cx="50"
+                cy="50"
+                r="35"
+            />
+            <circle
+                className="_line"
+                cx="85"
+                cy="10"
+                r="5"
+            />
             <path
-                className="st2"
+                className="_ring"
                 d="M15,55.9c-6.8,
                     4-8.8,10.14-8,
                     14.5c3.4,
