@@ -1,17 +1,15 @@
 import React, { PureComponent } from 'react';
-import firebase from 'firebase';
+
+import PortfolioLayout from './PortfolioLayout.jsx'
 import './App.scss';
-import Header from './Header.jsx';
 
 class App extends PureComponent {
-
     render() {
-
-        return <div className='app'>
-            <Header/>
-            <div className='_content'>
+        return <div className="app">
+            <div className="_icon">
+                <PortfolioLayout />
             </div>
-        </div>
+        </div>;
     }
 }
 
