@@ -1,0 +1,49 @@
+$header-image: 'https://firebasestorage.googleapis.com/v0/b/magicmark-223cc.appspot.com/o/cover%2Fmark-cover.jpeg?alt=media&token=f866a425-1149-4a1b-98ee-31b342252e37';
+
+.header {
+        width: 100%;
+
+        > ._image_container {
+            background-image: url($header-image);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center top;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            > ._play_icon {
+                cursor: pointer;
+
+            }
+
+            @media all and (max-width: 480px) {
+                    > ._play_icon {
+                        height: 150px;
+                    }
+                }
+
+        }
+        @media all and (max-width: 480px) {
+            > ._image_container {
+                height: 230px;
+                background-size: 500px;
+
+            }
+        }
+
+        @media all and (min-width: 481px) and (max-width: 1000px) {
+            > ._image_container {
+                height: 450px;
+                background-size: 980px;
+            }
+        }
+
+        @media all and (min-width: 1001px) {
+            > ._image_container {
+                height: 600px;
+                background-size: 1300px;
+                background-position: center top;
+            }
+        }
+    }
