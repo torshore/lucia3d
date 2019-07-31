@@ -58,7 +58,7 @@ class HeroBanner extends PureComponent {
                     <span>Digital Designer</span>
                 </div>
             </div>
-        </div>
+        </div>;
     }
 }
 
