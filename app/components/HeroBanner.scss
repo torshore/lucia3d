@@ -1,0 +1,91 @@
+.hero-banner {
+    > ._header {
+        display: flex;
+        justify-content: space-between;
+
+        > ._nav-links {
+            flex: 0.5;
+            display: flex;
+            align-items: center;
+
+            > a {
+                margin-right: 20px;
+                padding: 5px;
+                color: #f5eafb;
+                text-decoration: none;
+                letter-spacing: 2px;
+                text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+
+                &:hover {
+                    transition: background-color 0.2s ease-in;
+
+                    background: rgba(245, 234, 251, 0.4);
+                    border-radius: 4px;
+                    color: #f5eafb;
+                }
+            }
+        }
+
+        > ._outer-links {
+            display: flex;
+            justify-content: space-around;
+
+            > a {
+                margin-right: 5px;
+
+                > ._icon {
+                    display: inline-block;
+                    padding: 2px;
+                    width: 35px;
+                    height: 35px;
+                    color: #f5eafb;
+
+                    &:hover {
+                        transition: background-color 0.3s ease-in;
+
+                        background: #f5eafb;
+                        border-radius: 50%;
+                        color: #3c1053;
+                    }
+                }
+            }
+        }
+    }
+
+    > ._content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 100px 100px 200px;
+
+        > ._logo {
+            display: flex;
+            flex-direction: column;
+            align-items: space-evenly;
+            border: 1px solid white;
+            padding: 25px;
+            width: 100px;
+            height: 100px;
+
+            > span {
+
+                font-family: Raleway, sans-serif;
+                font-size: 32px;
+                color: white;
+            }
+        }
+
+        > ._description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            > span {
+                margin: 5px 0;
+                font-size: 36px;
+                letter-spacing: 2px;
+                text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+}

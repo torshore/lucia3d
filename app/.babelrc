@@ -1,6 +1,10 @@
 {
   "presets": [
-    "env",
+    ["env", {
+        "targets": {
+            "browsers": [ ">0.5%", "not op_mini all" ]
+        }
+    }],
     "react",
     "stage-1"
   ]
