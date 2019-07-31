@@ -1,9 +1,6 @@
 import React, { PureComponent } from 'react';
 
-import TiSocialFacebookCircular from 'react-icons/lib/ti/social-facebook-circular';
-import TiSocialGithubCircular from 'react-icons/lib/ti/social-github-circular';
-import TiSocialLinkedinCircular from 'react-icons/lib/ti/social-linkedin-circular';
-import TiSocialInstagramCircular from 'react-icons/lib/ti/social-instagram-circular';
+import { FaFacebook, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 import './HeroBanner.scss';
 
@@ -17,33 +14,34 @@ class HeroBanner extends PureComponent {
                     <a href="#work">PORTFOLIO</a>
                     <a href="#contact">CONTACT</a>
                 </div>
+
                 <div className="_outer-links">
                     <a
                         href="https://www.facebook.com/lucia3d/"
                         target="_blank"
                     >
-                        <TiSocialFacebookCircular className="_icon"/>
+                        <FaFacebook className="_icon"/>
                     </a>
 
                     <a
                         href="https://github.com/Lucia416"
                         target="_blank"
                     >
-                        <TiSocialGithubCircular className="_icon"/>
+                        <FaGithub className="_icon"/>
                     </a>
 
                     <a
                         href="https://www.linkedin.com/in/lucia-annunziata-wang/"
                         target="_blank"
                     >
-                        <TiSocialLinkedinCircular className="_icon"/>
+                        <FaLinkedin className="_icon"/>
                     </a>
 
                     <a
                         href="https://www.instagram.com/lucia3d/"
                         target="_blank"
                     >
-                        <TiSocialInstagramCircular className="_icon"/>
+                        <FaInstagram className="_icon"/>
                     </a>
                 </div>
             </div>
