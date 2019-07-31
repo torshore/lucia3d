@@ -47,7 +47,10 @@ class HeroBanner extends PureComponent {
             </div>
 
             <div className="_content">
-                <div className="_logo"></div>
+                <div className="_logo">
+                    <span>LUCIA</span>
+                    <span>3D</span>
+                </div>
 
                 <div className="_description">
                     <span>3D Artist</span>
